@@ -1,0 +1,47 @@
+.container2{
+    display: flex;
+    margin: auto;
+    height:100vh; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.actions-encrypt{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    height: 60%;
+    margin: 1%;
+    border:1px solid rgb(131, 131, 131);
+    justify-content: center;
+    align-items: center;
+}
+.actions-encrypt > .container > .form-floating{
+    width: 80%;
+}
+
+.actions-encrypt > .container > .form-floating > input{
+    width: 100%;
+}
+.actions-encrypt > .container > button{
+    width: 15%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.view-encrypt{
+    display: flex;
+    width: 40%;
+    height: 60%;
+    margin: 1%;
+    border:1px solid rgb(131, 131, 131);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
